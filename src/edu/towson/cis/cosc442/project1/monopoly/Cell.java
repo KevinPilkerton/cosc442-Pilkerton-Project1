@@ -1,5 +1,4 @@
 package edu.towson.cis.cosc442.project1.monopoly;
-// Test 2
 public abstract class Cell {
 	private String name;
 	protected Player theOwner;
