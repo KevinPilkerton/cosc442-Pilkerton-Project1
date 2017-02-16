@@ -1,16 +1,16 @@
 package edu.towson.cis.cosc442.project1.monopoly;
-
+// Test 2
 public abstract class Cell {
-	private boolean available = true;
 	private String name;
-	protected Player owner;
+	protected Player theOwner;
+	private boolean available = true;
 
 	public String getName() {
 		return name;
 	}
 
-	public Player getOwner() {
-		return owner;
+	public Player getTheOwner() {
+		return theOwner;
 	}
 	
 	public int getPrice() {
@@ -31,8 +31,8 @@ public abstract class Cell {
 		this.name = name;
 	}
 
-	public void setOwner(Player owner) {
-		this.owner = owner;
+	public void setTheOwner(Player owner) {
+		this.theOwner = owner;
 	}
     
     public String toString() {
